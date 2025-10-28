@@ -18,7 +18,7 @@ public class ArmstrongoviBrojevi {
         while (broj != 0) {
             int ostatak = broj % 10; // Dobijamo zadnju znamenku
             suma += Math.pow(ostatak, znamenke); // Dodaje n-tu znamenku na suma
-            broj /= 10; // Remove the last digit
+            broj /= 10; // Micanje zadnje znamenke
         }
 
         // Provjerava da li je suma jednaka originalnom broju
